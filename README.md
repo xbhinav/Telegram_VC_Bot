@@ -7,55 +7,61 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls From Various Sources In You
 
 # Support
 
-1. All linux based os.
+Only For Heroku:
+[Join Group for Any Help](https://t.me/yt_DarkHackerX_chat)
+
+For other OS Check the:
+[Main Repository](https://github.com/thehamkercat/Telegram_VC_Bot)
+
 
 
 ## Requirements
 
 - Telegram API_ID and API_HASH
-- Python 3.7 or higher 
 - Userbot Needs To Be Admin In The Chat
-- Install **ffmpeg**
+- [Heroku Client](https://devcenter.heroku.com/articles/heroku-cli#download-and-install): Installed On Your System
 
-## Run
-
-
-```sh
-$ git clone https://github.com/thehamkercat/Telegram_VC_Bot
-$ cd Telegram_VC_Bot
-$ sudo apt-get install ffmpeg
-$ pip3 install -U pip
-$ pip3 install -U -r requirements.txt
-$ cp sample_config.py config.py
-```
-Edit **config.py** with your own values.
-
-```sh
-$ python3 main.py
-```
 
 ## Heroku
 
 #### Generate String session [IMPORTANT]
 
-Download this file [generate_string_session.py](https://raw.githubusercontent.com/thehamkercat/Telegram_VC_Bot/master/generate_string_session.py)
+Go to this bot [@PyrogramStringBot](https://t.me/PyrogramStringBot) and enter your API ID AND API HASH, then Mobile no. and you will get your String Session.
 
 
-```sh
-$ pip3 install pyrogram TgCrypto
-$ python3 generate_string_session.py
-```
-Fork this repository and change name of `sample_config.py` to `config.py`
-Then you will need get a session string, copy it, then press heroku deploy button.
+Fork and Star this repository and copy `sample_config.py` and rename it to `config.py`.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/Telegram_VC_Bot/tree/master)
+## Deploying
+    heroku login
+
+    heroku create appname
+ 
+    heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git -a appname
+
+    heroku buildpacks:add https://github.com/heroku/heroku-buildpack-python.git -a appname
+
+    git init
+
+    heroku git:remote -a appname
+
+    git add .
+
+    git commit -am "Your commit message"
+
+    git push heroku master
+
+    heroku ps:scale worker=1
 
 
-Send [commands](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
-play music.
+## Video Tutorial
+
+[![video tutorial](https://img.youtube.com/vi/ImBoC4g7aDE/0.jpg)](https://youtu.be/ImBoC4g7aDE)
 
 
 ## Commands
+Send [commands](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
+play music.
+
 Command | Description
 :--- | :---
 /help | Show Help Message.
@@ -73,7 +79,7 @@ Command | Description
 
 ## Note
 
-1. If you want any help you can ask [here](https://t.me/tgvcsupport)
+1. If you want any help you can ask [here](https://t.me/yt_DarkHackerX_chat)
 
 ## Credits
 
