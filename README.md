@@ -58,7 +58,7 @@ Fork and Star this repository and copy `sample_config.py` and rename it to `conf
 
 ## Video Tutorial
 
-[![video tutorial](https://img.youtube.com/vi/ImBoC4g7aDE/0.jpg)](https://youtu.be/ImBoC4g7aDE)
+[![video tutorial](https://i9.ytimg.com/vi_webp/qW9DZWslRkc/mqdefault.webp?time=1619332500000&sqp=CJSblIQG&rs=AOn4CLCM0DlWNqHjkDEHf6lAwHK_Tv-2Ww)](https://www.youtube.com/watch?v=qW9DZWslRkc)
 
 
 ## Commands
