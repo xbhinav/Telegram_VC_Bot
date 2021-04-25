@@ -57,7 +57,7 @@ Fork and Star this repository and copy `sample_config.py` and rename it to `conf
 
 
 ## Video Tutorial
-[![video tutorial](https://raw.githubusercontent.com/Lucifer7535/Telegram_VC_Bot/master/photo_2021-04-25_11-25-32.jpg)](https://www.youtube.com/watch?v=qW9DZWslRkc)
+[![video tutorial](https://raw.githubusercontent.com/Lucifer7535/Telegram_VC_Bot/master/thumbnail.jpg)](https://www.youtube.com/watch?v=qW9DZWslRkc)
 
 ## Commands
 Send [commands](https://github.com/Lucifer7535/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
