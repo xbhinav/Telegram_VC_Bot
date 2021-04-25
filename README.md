@@ -32,6 +32,9 @@ Go to this bot [@PyrogramStringBot](https://t.me/PyrogramStringBot) and enter yo
 Fork and Star this repository and copy `sample_config.py` and rename it to `config.py`.
 
 ## Deploying
+
+#### Note - Change appname to any other name
+
     heroku login
 
     heroku create appname
@@ -59,7 +62,7 @@ Fork and Star this repository and copy `sample_config.py` and rename it to `conf
 
 
 ## Commands
-Send [commands](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
+Send [commands](https://github.com/Lucifer7535/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
 play music.
 
 Command | Description
